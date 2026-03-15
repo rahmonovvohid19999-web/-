@@ -11399,6 +11399,18 @@
   border-color: blue;
 }
 
+.text-gold {
+  color: gold;
+}
+
+.bg-gold {
+  background-color: gold;
+}
+
+.border-gold {
+  border-color: gold;
+}
+
 .text-yellow {
   color: yellow;
 }
@@ -19627,6 +19639,15 @@
   }
   .m-border-blue {
     border-color: blue;
+  }
+  .m-text-gold {
+    color: gold;
+  }
+  .m-bg-gold {
+    background-color: gold;
+  }
+  .m-border-gold {
+    border-color: gold;
   }
   .m-text-yellow {
     color: yellow;
