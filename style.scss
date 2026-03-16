@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   list-style: none;
+ 
   
 }
 
@@ -11,7 +12,7 @@ $primaryColor: (
     primary: #F9F8FD,
     primary1:#747474,
 );
-$colors: red, green, blue,rgba(158, 93, 148, 0.594), yellow,bisque brown, gray, black, white, pink, purple,
+$colors: red, green, blue,navajowhite, yellow,bisque, brown, gray, black, white, pink, purple,
   orange, lightblue, lightgray, aqua;
 $fonts: 100, 200, 300, 400, 500, 600, 700, 800, 900;
 $displays: flex, grid, inline, block, none;
@@ -141,6 +142,7 @@ $buttons: (
   }
   .border-#{$color} {
     border-color: $color;
+    
   }
 }
 @each $font in $fonts {
